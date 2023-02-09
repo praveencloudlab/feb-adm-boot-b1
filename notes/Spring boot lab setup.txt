@@ -1,0 +1,12 @@
+Spring boot lab setup
+----------------------
+1.JDK 17 and above
+2.Spring boot 3x
+3.Eclise for java EE developers, IntelJIdea / STS  
+4.MySQL / oracle xe
+5.Postman applicaton (not brower plugin)
+
+
+
+
+
