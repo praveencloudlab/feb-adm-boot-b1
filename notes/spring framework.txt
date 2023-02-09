@@ -1,0 +1,33 @@
+Types of  Objects?: 2 types
+1.dependency: never depends on other objects. work independently
+2.dependent: always depends on dependency objects.
+Ex: Employee and Department. Here Department is dependency, where as
+    Employee is dependent. With out deparrtment object, employee 
+    knnow know which department they belangs to
+
+
+ What is spring framework?
+ ---------------------------
+ The Spring Framework is a widely-used, open-source Java framework for building Java applications. It provides a comprehensive set of tools and technologies for building various types of applications, including web applications, enterprise applications, and cloud-based applications.
+
+Some of the key features of the Spring Framework include:
+
+Dependency Injection (DI): The Spring Framework provides a powerful DI mechanism, which allows for the separation of concerns and reduces the tight coupling between components in an application.
+
+Aspect-Oriented Programming (AOP): Spring supports AOP, which allows developers to separate cross-cutting concerns, such as logging, security, and transaction management, into separate components.
+
+Data Access: Spring provides a variety of options for accessing data, including support for JDBC, Hibernate, and JPA. It also provides a high-level abstraction for data access, which makes it easier to write and maintain database-related code.
+
+Web Development: The Spring Framework provides a comprehensive set of tools for building web applications, including support for building RESTful web services, handling HTTP requests, and integrating with web-based technologies like JSON and XML.
+
+Testing: Spring provides a variety of tools and technologies for testing, including support for unit testing, integration testing, and end-to-end testing.
+
+In summary, the Spring Framework is a comprehensive, modular framework for building Java applications that provides a wide range of features and tools for building robust, scalable, and maintainable applications.
+
+
+
+
+
+
+
+

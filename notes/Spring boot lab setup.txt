@@ -5,6 +5,40 @@ Spring boot lab setup
 3.Eclise for java EE developers, IntelJIdea / STS  
 4.MySQL / oracle xe
 5.Postman applicaton (not brower plugin)
+6.Maven3x
+
+
+=================
+->java 8
+->client and server 
+->html5 and css, little bit of java script
+->database knowlerdge
+->spring framework is optional
+
+
+TOC
+----
+1.spring boot core
+2.data jpa / jdbc template
+3.spring boot web mvc
+4.spring boot web rest api
+5.globalizing the configuration 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
