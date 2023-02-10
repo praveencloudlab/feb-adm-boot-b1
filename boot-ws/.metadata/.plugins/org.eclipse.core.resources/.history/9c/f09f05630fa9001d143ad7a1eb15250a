@@ -1,0 +1,16 @@
+package com.cts.ecart;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication // enables auto discovery
+public class Application {
+
+	public static void main(String[] args) {
+		System.out.println(">>> before");
+		SpringApplication.run(Application.class, args);
+		System.out.println(">>> after");
+		
+	}
+
+}

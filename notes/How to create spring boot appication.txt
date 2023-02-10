@@ -1,0 +1,6 @@
+How to create spring boot appication?
+==========================================
+1.sprig initializr (https://start.spring.io/)
+2.spring sts plug in with IDE like eclipse, IntelJIdea .. etc
+
+

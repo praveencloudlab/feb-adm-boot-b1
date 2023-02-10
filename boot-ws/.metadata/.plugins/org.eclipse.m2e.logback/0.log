@@ -1,0 +1,7 @@
+2023-02-10 11:39:02,622 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-02-10 12:17:59,217 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:1-boot-core:0.0.1-SNAPSHOT @ /Users/praveen/Desktop/spring sample apps/1-boot-core/pom.xml.
+2023-02-10 12:17:59,520 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /1-boot-core/src/main/java
+2023-02-10 12:17:59,520 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /1-boot-core/src/main/resources
+2023-02-10 12:17:59,521 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /1-boot-core/src/main/resources
+2023-02-10 12:17:59,521 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /1-boot-core/src/test/java
+2023-02-10 12:18:00,164 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
