@@ -1,0 +1,9 @@
+Spring boot data JPA
+===========================
+	Repository interface
+
+	CrudRepository extends Repository
+	ListCrudRepository extends CrudRepository
+
+	
+
