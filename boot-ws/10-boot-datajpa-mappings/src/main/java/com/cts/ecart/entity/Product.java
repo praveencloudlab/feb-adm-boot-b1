@@ -29,5 +29,7 @@ public class Product {
 	@JoinColumn(name="price_id")
 	private Price price;
 	
+	
+	
 
 }

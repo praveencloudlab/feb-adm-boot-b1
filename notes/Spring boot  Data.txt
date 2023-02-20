@@ -4,5 +4,17 @@ Spring boot  Data
 2.Data JPA
 
 
+ Auto configuration
+ =========================
+ 1.data source
+ 	-> Hikari CP
+ 	-> Tomcat 
+ 	-> DBCP2
+ 	-> Oracleu CP
+ 2.transaction management
+ 	JPA transaction manager
+ 	
+
+
 
 
