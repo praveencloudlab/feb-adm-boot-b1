@@ -43,12 +43,13 @@ public class Application {
 		Stock stock=new Stock(45);
 		
 		Product prod=new Product("Samsung S23", "Blue Color 256 GB", 0, "S23,Samsung,Mobile,galaxy", stock, price);
-		Product prodObj = prodRepo.save(prod);
+		//Product prodObj = prodRepo.save(prod);
 
-		brand.getProds().add(prodObj);
-		brandRepo.save(brand);
+		//brand.getProds().add(prodObj);
+		//brandRepo.save(brand);
 		
 		
+		prodRepo.findByTitle("%Laptop%").forEach(System.out::println);
 		
 		
 		
