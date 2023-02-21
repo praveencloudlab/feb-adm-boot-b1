@@ -6,4 +6,5 @@ import com.cts.ecart.entity.Brand;
 
 public interface BrandRepository extends JpaRepository<Brand, Integer> {
 
+	
 }
