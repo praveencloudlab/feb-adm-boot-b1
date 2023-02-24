@@ -4,14 +4,13 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.cts.ecart.entity.Brand;
 import com.cts.ecart.entity.Category;
+import com.cts.ecart.entity.Product;
 import com.cts.ecart.repository.BrandRepository;
 import com.cts.ecart.repository.CategoryRepository;
+import com.cts.ecart.repository.ProductRepository;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -24,10 +23,27 @@ public class ProductServiceImpl {
 	
 	@Autowired
 	private CategoryRepository catRepo;
-	
 	@Autowired
 	private BrandRepository brandRepo;
+	@Autowired
+	private ProductRepository prodRepo;
 	
+	public List<Product> findAllProducts(){
+		return prodRepo.findAll();
+	}
+	
+	
+	public Brand findBrandById(int brandId) {
+		return brandRepo.findById(brandId).orElse(null);
+	}
+	
+	public Product saveProduct(Product prod) {
+		return prodRepo.save(prod);
+	}
+	
+	public void saveBrand(Brand brand) {
+		brandRepo.save(brand);
+	}
 	
 	public List<Category> loadcategories(){
 		return catRepo.findAll();

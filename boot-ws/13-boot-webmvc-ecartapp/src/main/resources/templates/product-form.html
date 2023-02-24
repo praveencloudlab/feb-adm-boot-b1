@@ -2,39 +2,45 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+	rel="stylesheet">
 <title>Insert title here</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script th:inline="javascript">
         $(document).ready(function() {
             $('#categoryId').change(function() {
                 var categoryId = $(this).val();
-                $.get('/loadBrands', {categoryId: categoryId}, function(data) {
-                    $('#brands').empty();
-                    $.each(data, function(index, value) {
-                    	console.log(value)
-                        $('#brands').append($('<option>').text(value.brandTitle));
+                $.get('/loadBrands', {categoryId: categoryId}, (brands)=> {
+                   $('#brands').empty();
+                    $.each(brands, (index, brand)=> {
+                        $('#brands').append($(`<option value=${brand.brandId}>`).text(brand.brandTitle));
                     });
                 });
             });
         });
     </script>
 </head>
-<body>
-	<h1>Product Form</h1>
-	<hr />
+<body class="container">
+<header th:include="menu :: banner"></header>
+<hr/>
 
-	<form>
+<nav th:include="menu :: menu"></nav>
+
+
+
+	<form action="./saveProduct">
 
 		<div>
 			<input name="productTitle" placeholder="Product Name" /> <br />
 		</div>
 
 		<div>
-			<input name="price" placeholder="Price" /> <br />
+			<input name="priceObj.price" placeholder="Price" /> <br />
 		</div>
 
 		<div>
-			<input name="stock" placeholder="Stock" /> <br />
+			<input name="stock.stock" placeholder="Stock" /> <br />
 		</div>
 
 		<div>
@@ -59,7 +65,7 @@
 
 		<div>
 			<label>Select Brand</label> 
-			<select id="brands">
+			<select id="brands" name="brandId">
 			
 			</select>
 		</div>
