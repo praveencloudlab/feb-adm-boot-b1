@@ -1,0 +1,59 @@
+MVC and REST 
+===================
+
+MVC and REST are both architectural styles that can be used to design web applications, and Spring Boot is a popular Java framework that can be used to implement both styles.
+
+Here are some key differences between an MVC application and a REST application in Spring Boot:
+
+1.Design philosophy: The Model-View-Controller (MVC) pattern is a traditional architectural pattern that separates an application into three components: the model, which represents the data and business logic; the view, which represents the user interface; and the controller, which handles user input and updates the model and view accordingly. In contrast, the Representational State Transfer (REST) style is an architectural style that emphasizes a uniform interface between clients and servers, using HTTP methods to access and manipulate resources.
+
+2.Data exchange: In an MVC application, data is typically exchanged between the client and the server using HTML forms, URL parameters, and cookies. In a REST application, data is exchanged between the client and the server using standardized HTTP methods and data formats such as JSON or XML.
+
+3.Resource orientation: In a REST application, the main focus is on resources, which are identified by URLs and manipulated using HTTP methods. Each resource has its own unique URL, and a client can access and manipulate that resource using the appropriate HTTP method. In an MVC application, the focus is on the components of the application (model, view, and controller) rather than on individual resources.
+
+4.API design: In a REST application, the API is typically designed using a set of standardized conventions, such as the Richardson Maturity Model, which defines different levels of RESTful API design. In an MVC application, the API is typically designed using custom URL mappings and controller methods.
+
+5.Stateless: REST APIs are designed to be stateless, meaning that each request from a client to the server contains all of the information necessary to complete the request. In an MVC application, it is possible to maintain some state between requests, such as session data.
+
+6.Testing: REST APIs are often easier to test than MVC applications, because the API endpoints can be tested independently of the user interface. MVC applications typically require more complex integration tests that test the interaction between the components of the application.
+
+These are some of the main differences between an MVC application and a REST application in Spring Boot. Both approaches have their own advantages and disadvantages, and the choice between them depends on the specific requirements of your application.
+
+
+Web Services
+==================
+
+1.SOAP
+2.REST
+
+
+    1.JAX-WS
+    2.JAX-RS
+
+    JAX-RS
+    ----------
+    1.rest easy
+    2.apache cxf
+
+    Spring REST
+    =============
+
+
+    	
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
